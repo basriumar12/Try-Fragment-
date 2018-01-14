@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<fragment android:layout_width="match_parent"
+    android:id="@+id/master_list_fragment"
+    android:layout_height="match_parent"
+    android:name="id.co.imastudio.santri.probasic4.fragment.MasterListFragment"
+    xmlns:android="http://schemas.android.com/apk/res/android" />

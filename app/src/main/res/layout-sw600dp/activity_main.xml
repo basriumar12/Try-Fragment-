@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="horizontal" android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:baselineAligned="false"
+    >
+    <fragment
+        android:layout_width="400dp"
+        android:id="@+id/master_list_fragment"
+        android:layout_height="match_parent"
+        android:name="id.co.imastudio.santri.probasic4.fragment.MasterListFragment">
+    </fragment>
+    <View
+        android:background="@color/colorPrimaryDark"
+        android:layout_width="1dp"
+        android:layout_height="match_parent"></View>
+    <LinearLayout
+        android:id="@+id/android_linear_layout"
+        android:gravity="center"
+        android:padding="16dp"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <FrameLayout
+            android:id="@+id/kepala_container"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/badan_container"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+        </FrameLayout>
+        <FrameLayout
+            android:id="@+id/kaki_container"
+            android:layout_width="match_parent"
+            android:layout_height="180dp">
+        </FrameLayout>
+    </LinearLayout>
+</LinearLayout>
